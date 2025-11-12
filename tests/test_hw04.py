@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from main import make_set, add, contains, remove, size
 
